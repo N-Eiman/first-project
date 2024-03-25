@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<!--Student Name: Thakane Nyabela
+	File Name: Index.html
+	Date: 25/09/2022
+-->
+
+<html lang="en">
+  <head>
+    <title>Service People</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link rel="icon" sizes="192x192" href="images/android-chrome-192.png" />
+  </head>
+  <body>
+    <div id="container">
+      <!-- Mobile Nav -->
+      <nav class="mobile-nav">
+        <div id="menu-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About us</a>
+          <a href="contact.html">Contact</a>
+          <a href="form.html">Form</a>
+        </div>
+        <a class="menu-icon">
+          <div>&#9776;</div>
+        </a>
+      </nav>
+
+      <!--Use the header area for the website name or logo-->
+      <header id="sp-logo">
+        <a href="index.html"
+          ><img src="images/logo.jpg" alt="Service People logo"
+        /></a>
+        <h2>Welcome to Service People</h2>
+      </header>
+
+      <!--Tablet, Desktop Nav-->
+      <nav class="tablet-desktop">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="form.html">Form</a></li>
+        </ul>
+      </nav>
+
+      <!--Use the main area to add the main content of the webpage-->
+      <main>
+        <div class="book">
+          <h4>Book Now</h4>
+          <form id="contact-form">
+            <!--Start Form-->
+
+            <fieldset>
+              <legend>Client Details</legend>
+              <label for="yName">Your Name</label>
+              <input type="text" name="yname" id="yName" required />
+
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email" required />
+
+              <label for="address"
+                >Home or Office address where car will be serviced</label
+              >
+              <input type="text" name="address" id="address" required />
+
+              <p>Select the type of service required</p>
+
+              <label for="repairs"
+                ><input
+                  type="checkbox"
+                  name="interest"
+                  id="repairs"
+                  value="General Car Repairs"
+                />General Car Repairs</label
+              >
+
+              <label for="service"
+                ><input
+                  type="checkbox"
+                  name="interest"
+                  id="service"
+                  value="Car Servicing"
+                />Car Servicing</label
+              >
+
+              <label for="crepair"
+                ><input
+                  type="checkbox"
+                  name="interest"
+                  id="crepair"
+                  value="Mobile Car Repairs"
+                />Mobile Car Repairs</label
+              >
+
+              <label for="tow"
+                ><input
+                  type="checkbox"
+                  name="interest"
+                  id="tow"
+                  value="Tow Service"
+                />Tow Service</label
+              >
+            </fieldset>
+            <fieldset>
+              <legend>Additional Information</legend>
+              <label for="info">Details (Optional)</label>
+              <textarea name="info" id="info" rows="10" cols="30"></textarea>
+            </fieldset>
+
+            <input type="submit" id="submit" value="submit" class="btn" />
+          </form>
+        </div>
+      </main>
+
+      <!--Use the footer area to add webpage footer content-->
+      <footer>
+        <div class="copyright">
+          <p>
+            <a href="mailto:pietgouws@servicepeople.co.za"
+              >pietgouws@servicepeople.co.za</a
+            >
+          </p>
+          <p>&copy;Copyright 2021. All Rights Reserved.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
