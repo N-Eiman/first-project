@@ -497,7 +497,7 @@ footer p a {
   }
 
   /* Tablet Viewport: Animation */
-  @-webkit-keyframes text animation {
+  @-webkit-keyframes {text animation} {
     0% {
       font-size: 1em;
     }
@@ -648,4 +648,4 @@ footer .copyright {
     width: 100%;
     background-color: #555;
   }
-}
+
